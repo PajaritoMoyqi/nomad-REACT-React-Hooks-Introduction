@@ -1,9 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 
 export const App = () => {
 
   const [item, setItem] = useState(1)
+
+  const sayHello = () => console.log('Hi');
+
+  useEffect(() => {
+    sayHello();
+  }, [item])
+
   const incrementItem = () => {
     setItem(item + 1);
   }
