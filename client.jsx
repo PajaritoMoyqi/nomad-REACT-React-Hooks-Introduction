@@ -9,11 +9,14 @@ const ReactDOM = require('react-dom');
 // import { UseConfirmApp } from './src/components/UseConfirmApp';
 // import { UsePageLeaveApp } from './src/components/UsePageLeaveApp';
 // import { UseFadeIn } from './src/components/UseFadeIn';
-import { UseNetwork } from './src/components/UseNetwork';
-import { UseScroll } from './src/components/UseScroll';
+// import { UseNetwork } from './src/components/UseNetwork';
+// import { UseScroll } from './src/components/UseScroll';
+// import { UseNotification } from './src/components/UseNotification';
+import { UseAxios } from './src/components/UseAxios';
+
 
 ReactDOM.render(
-  <UseScroll />,
+  <UseAxios />,
   document.getElementById('root')
 );
 
