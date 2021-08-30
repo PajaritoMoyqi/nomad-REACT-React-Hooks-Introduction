@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/PajaritoMoyqi/nomad-REACT-React-Hooks-Introduction"
+    "url": "git+https://github.com/PajaritoMoyqi/nomad-REACT-React-Hooks-Introduction"
   },
   "author": "pajaritomoyqi",
   "license": "ISC",
